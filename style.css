@@ -1,0 +1,36 @@
+.header {
+  background-color: green;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navBar{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-right: 55px;
+}
+
+.headerLogo{
+  display: flex;
+  align-items: left;
+  height: 100px;
+  padding-right: 1050px;
+}
+
+.topLinks{
+  font-size: 18px;
+  color: black;
+  display: flex;
+  align-items: top;
+  justify-content: right;
+  gap: 8px;
+}
+
+.headerText {
+
+}
+
+.headerPic {
+  display: flex;
+  align-items: right;
+}
