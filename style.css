@@ -129,11 +129,11 @@
   flex-direction: row;
 }
 
-.action{
+.action-text{
 font-size: 32px;
 }
 
-.button{
+.sign-up-box button{
   display: block;
   text-align: center;
   justify-items: right;
