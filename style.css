@@ -1,7 +1,23 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+header, footer, div, section{
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .header {
-  display: flex;
+  display: block;
   background-color: #1F2937;
   font: #F9FAF8;
+  height: 60px;
+  padding: 5px 50px;
 }
 /* navagation bar */
 .navBar{
@@ -10,24 +26,26 @@
 }
 
 .headerLogo{
-  display: flex;
-  flex-direction: row;
-  align-items: left;
-  height: 100px;
-  padding-right: 1050px;
-  padding-top: 25px;
-  padding-left: 100px;
+  display: block;
+  height: auto;
+  width: 50px;
   float: left;
 }
 
 .topLinks{
   font-size: 20px;
   color: white;
-  display: flex;
-  justify-content: right;
-  gap: 20px;
-  padding: 50px;
-  white-space: nowrap;
+  text-align: right;
+  width: calc(100% - 65px);
+  margin: 14px 0 0;
+  padding: 0;
+  float: right;
+}
+
+.topLinks li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 20px;
 }
 
 /* header secion with pic */
@@ -35,7 +53,7 @@
   display: flex;
   flex-direction: row;
   /* align-content: flex-start; */
-  background-color: #1F2937;
+  background-color: pink;
   margin-left: auto;
   margin-right: auto;
   /* align-content: space-around; */
