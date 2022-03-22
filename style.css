@@ -52,11 +52,9 @@ header, footer, div, section{
 .hero {
   display: flex;
   flex-direction: row;
-  /* align-content: flex-start; */
-  background-color: pink;
+  background-color: #1F2937;
   margin-left: auto;
   margin-right: auto;
-  /* align-content: space-around; */
   justify-content: space-around;
 }
 
@@ -66,6 +64,20 @@ header, footer, div, section{
   color: white;
   word-wrap: normal;
   padding: 90px;
+  padding-left: 0px;
+  float: left;
+  width: 50%;
+}
+
+.heroText h1{
+  font-style: #F9FAF8;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.heroText p{
+  font-style: #E5E7EB;
+  font-size: 18px;
 }
 
 .hero button {
@@ -85,18 +97,12 @@ header, footer, div, section{
 }
 
 .heroPic {
-  display: flex;
-  /* align-items: right; */
-  /* width: 500px; */
-  /* height: 200px; */
-  /* padding: 50px; */
-  /* padding-left: 200px; */
-  /* float: right; */
   display: block;
-  /* margin-left: auto;
-  margin-right: auto; */
   max-width: 100%;
   height: auto;
+  float: right;
+  position: relative;
+  top: 20%;
 }
 
 /* top 4 parks  */
@@ -176,9 +182,7 @@ header, footer, div, section{
   margin: 50px 200px;
   padding: 10px 80px;
   display: flex;
-  /* text-align: center; */
   border-radius: 5px;
-  /* border-color: none; */
   flex-direction: row;
 }
 
@@ -190,8 +194,6 @@ color: white;
 
 .sign-up-box button{
   display: block;
-  /* text-align: center; */
-  /* justify-items: right; */
   width: 110px;
   border-color: white;
   border-style: solid;
@@ -201,7 +203,6 @@ color: white;
   border-radius: 8px;
   color: white;
   font-family: 'Roboto', arial;
-  /* text-decoration: none; */
   font-weight: bold;
   float: right;
   margin-left: 50%;
