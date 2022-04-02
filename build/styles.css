@@ -1,4 +1,4 @@
-:root{
+:root {
   --dark-blue: #1F2937;
   --font-light: #F9FAF8;
 }
@@ -8,32 +8,32 @@ html, body {
   margin: 0;
 }
 
-header, footer, div, section{
+header, footer, div, section {
   box-sizing: border-box;
 }
 
-.action-text{
+.action-text {
   float: left;
-  padding-right: 450px; 
+  padding-right: 450px;
   color: white;
   font-size: 32px;
-  }
+}
 
-.action-text p{
+.action-text p {
   font-size: 18px;
   margin-top: 0px;
 }
 
-.container{
+.container {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.content{
+.content {
   align-items: center;
 }
 
-.content-info{
+.content-info {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -42,7 +42,7 @@ header, footer, div, section{
   column-gap: 20px;
 }
 
-.content-info img{
+.content-info img {
   width: 200px;
   height: 200px;
   object-fit: cover;
@@ -82,7 +82,7 @@ header, footer, div, section{
   padding: 5px 50px;
 }
 
-.headerLogo{
+.headerLogo {
   display: block;
   height: auto;
   width: 50px;
@@ -107,7 +107,7 @@ header, footer, div, section{
   padding: 10px;
   border-radius: 8px;
   color: #fff;
-  font-family: 'Roboto', arial;
+  font-family: "Roboto", arial;
   text-decoration: none;
   font-weight: bold;
   white-space: nowrap;
@@ -125,17 +125,17 @@ header, footer, div, section{
   width: 50%;
 }
 
-.heroText h1{
+.heroText h1 {
   font-style: var(--font-light);
   font-size: 48px;
   font-weight: bold;
-  margin-bottom: 15px
+  margin-bottom: 15px;
 }
 
-.heroText p{
+.heroText p {
   font-style: #E5E7EB;
   font-size: 18px;
-  margin-top: 0px
+  margin-top: 0px;
 }
 
 .heroPic {
@@ -147,7 +147,7 @@ header, footer, div, section{
   top: 20%;
 }
 
-.navBar{
+.navBar {
   display: flexbox;
   align-items: flex-start;
 }
@@ -165,17 +165,17 @@ header, footer, div, section{
   display: flex;
   background-color: #E5E7EB;
   flex-direction: column;
-  padding: 75px
+  padding: 75px;
 }
 
-.quote{
+.quote {
   font-size: 36px;
   font-family: #1F2937;
   font-style: italic;
   max-width: 892px;
 }
 
-.speaker{
+.speaker {
   font-size: 28px;
   font-weight: bold;
   font-family: #1F2937;
@@ -184,7 +184,7 @@ header, footer, div, section{
   padding-top: 30px;
 }
 
-.sign-up-box{
+.sign-up-box {
   background-color: #3882f6;
   color: white;
   margin: 50px 250px;
@@ -194,7 +194,7 @@ header, footer, div, section{
   flex-direction: row;
 }
 
-.sign-up-box button{
+.sign-up-box button {
   display: block;
   width: 110px;
   border-color: white;
@@ -204,7 +204,7 @@ header, footer, div, section{
   padding: 10px;
   border-radius: 8px;
   color: white;
-  font-family: 'Roboto', arial;
+  font-family: "Roboto", arial;
   font-weight: bold;
   margin-left: 50%;
   white-space: nowrap;
@@ -213,7 +213,7 @@ header, footer, div, section{
   top: 20%;
 }
 
-.topLinks{
+.topLinks {
   font-size: 20px;
   color: white;
   text-align: right;
@@ -228,3 +228,5 @@ header, footer, div, section{
   list-style: none;
   margin-left: 20px;
 }
+
+/*# sourceMappingURL=styles.css.map */

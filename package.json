@@ -1,0 +1,25 @@
+{
+  "name": "odin-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run sass && http-server .",
+    "sass": "sass styles/index.scss build/styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clmedders/odin-landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clmedders/odin-landing-page/issues"
+  },
+  "homepage": "https://github.com/clmedders/odin-landing-page#readme",
+  "devDependencies": {
+    "http-server": "^14.1.0",
+    "sass": "^1.49.11"
+  }
+}
