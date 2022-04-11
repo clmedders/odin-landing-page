@@ -1,3 +1,8 @@
+$desktop:1200px;
+$laptop:1024px;
+$tablet:768px;
+$phone:480px;
+
 :root{
   --dark-blue: #1F2937;
   --font-light: #F9FAF8;
@@ -17,6 +22,9 @@ header, footer, div, section{
   padding-right: 450px; 
   color: white;
   font-size: 32px;
+  @media (max-width:$desktop) {
+ 
+    }
   }
 
 .action-text p{
@@ -80,6 +88,10 @@ header, footer, div, section{
   font: var(--font-light);
   height: 60px;
   padding: 5px 50px;
+  @media (max-width:$desktop) {
+    padding-right: 90px;
+    padding-left: 90px;
+  }
 }
 
 .headerLogo{
@@ -123,6 +135,9 @@ header, footer, div, section{
   padding-left: 0px;
   float: left;
   width: 50%;
+  @media (max-width:$desktop) {
+    padding: 90px;
+  }
 }
 
 .heroText h1{
@@ -145,6 +160,12 @@ header, footer, div, section{
   float: right;
   position: relative;
   top: 20%;
+  @media (max-width:$desktop) {
+    padding-right: 90px;
+  }
+  @media (max-width:$laptop) {
+    padding-right: 90px;
+  }
 }
 
 .navBar{
@@ -192,6 +213,9 @@ header, footer, div, section{
   display: flex;
   border-radius: 5px;
   flex-direction: row;
+  @media (max-width:$desktop) {
+    margin: 50px;
+  }
 }
 
 .sign-up-box button{
@@ -211,6 +235,10 @@ header, footer, div, section{
   width: fit-content;
   position: relative;
   top: 20%;
+  @media (max-width:$desktop) {
+    float: right;
+  
+  }
 }
 
 .topLinks{
