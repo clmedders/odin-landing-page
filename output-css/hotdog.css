@@ -18,6 +18,11 @@ header, footer, div, section {
   color: white;
   font-size: 32px;
 }
+@media (max-width: 1200px) {
+  .action-text {
+    white-space: nowrap;
+  }
+}
 
 .action-text p {
   font-size: 18px;
@@ -81,6 +86,12 @@ header, footer, div, section {
   height: 60px;
   padding: 5px 50px;
 }
+@media (max-width: 1200px) {
+  .header {
+    padding-right: 90px;
+    padding-left: 90px;
+  }
+}
 
 .headerLogo {
   display: block;
@@ -124,6 +135,11 @@ header, footer, div, section {
   float: left;
   width: 50%;
 }
+@media (max-width: 1200px) {
+  .heroText {
+    padding: 90px;
+  }
+}
 
 .heroText h1 {
   font-style: var(--font-light);
@@ -145,6 +161,16 @@ header, footer, div, section {
   float: right;
   position: relative;
   top: 20%;
+}
+@media (max-width: 1200px) {
+  .heroPic {
+    padding-right: 90px;
+  }
+}
+@media (max-width: 1024px) {
+  .heroPic {
+    padding-right: 90px;
+  }
 }
 
 .navBar {
@@ -193,6 +219,11 @@ header, footer, div, section {
   border-radius: 5px;
   flex-direction: row;
 }
+@media (max-width: 1200px) {
+  .sign-up-box {
+    margin: 50px;
+  }
+}
 
 .sign-up-box button {
   display: block;
@@ -211,6 +242,17 @@ header, footer, div, section {
   width: fit-content;
   position: relative;
   top: 20%;
+}
+@media (max-width: 1200px) {
+  .sign-up-box button {
+    float: right;
+    right: 700px;
+  }
+}
+
+.sign-up__inner {
+  display: flex;
+  flex: row nowrap;
 }
 
 .topLinks {

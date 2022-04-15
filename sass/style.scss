@@ -23,7 +23,7 @@ header, footer, div, section{
   color: white;
   font-size: 32px;
   @media (max-width:$desktop) {
- 
+      white-space: nowrap;
     }
   }
 
@@ -237,8 +237,13 @@ header, footer, div, section{
   top: 20%;
   @media (max-width:$desktop) {
     float: right;
-  
+    right: 700px;
   }
+}
+
+.sign-up__inner {
+  display: flex;
+  flex: row nowrap;
 }
 
 .topLinks{
