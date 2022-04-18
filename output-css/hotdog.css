@@ -23,10 +23,20 @@ header, footer, div, section {
     white-space: nowrap;
   }
 }
+@media (max-width: 1024px) {
+  .action-text {
+    font-size: 22px;
+  }
+}
 
 .action-text p {
   font-size: 18px;
   margin-top: 0px;
+}
+@media (max-width: 1024px) {
+  .action-text p {
+    font-size: 16px;
+  }
 }
 
 .container {
@@ -92,6 +102,11 @@ header, footer, div, section {
     padding-left: 90px;
   }
 }
+@media (max-width: 480px) {
+  .header {
+    font-size: 22px;
+  }
+}
 
 .headerLogo {
   display: block;
@@ -107,6 +122,11 @@ header, footer, div, section {
   margin-left: auto;
   margin-right: auto;
   justify-content: space-around;
+}
+@media (max-width: 1024px) {
+  .hero {
+    height: 500px;
+  }
 }
 
 .hero button {
@@ -169,7 +189,8 @@ header, footer, div, section {
 }
 @media (max-width: 1024px) {
   .heroPic {
-    padding-right: 90px;
+    position: relative;
+    top: -340px;
   }
 }
 
@@ -210,21 +231,40 @@ header, footer, div, section {
   padding-top: 30px;
 }
 
+.topLinks {
+  font-size: 20px;
+  color: white;
+  text-align: right;
+  width: calc(100% - 65px);
+  margin: 14px 0 0;
+  padding: 0;
+  float: right;
+}
+
+.topLinks li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 20px;
+}
+
 .sign-up-box {
   background-color: #3882f6;
   color: white;
-  margin: 50px 250px;
+  margin: 50px;
   padding: 40px 80px;
   display: flex;
   border-radius: 5px;
   flex-direction: row;
 }
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   .sign-up-box {
-    margin: 50px;
+    margin: 50px 250px;
   }
 }
-
+.sign-up-box .sign-up__inner {
+  display: flex;
+  flex: row nowrap;
+}
 .sign-up-box button {
   display: block;
   width: 110px;
@@ -249,26 +289,10 @@ header, footer, div, section {
     right: 700px;
   }
 }
-
-.sign-up__inner {
-  display: flex;
-  flex: row nowrap;
-}
-
-.topLinks {
-  font-size: 20px;
-  color: white;
-  text-align: right;
-  width: calc(100% - 65px);
-  margin: 14px 0 0;
-  padding: 0;
-  float: right;
-}
-
-.topLinks li {
-  display: inline-block;
-  list-style: none;
-  margin-left: 20px;
+@media (max-width: 1024px) {
+  .sign-up-box button {
+    margin-left: 450px;
+  }
 }
 
 /*# sourceMappingURL=hotdog.css.map */
