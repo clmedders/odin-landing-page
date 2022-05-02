@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass:watch": "sass --watch sass/style.scss:output-css/hotdog.css",
-    "build": "sass sass/style.scss:output-css/hotdog.css",
-    "start": "sass sass/style.scss:output-css/hotdog.css && http-server ."
+    "watch": "sass --watch sass/style.scss:output-css/style.css",
+    "build": "sass sass/style.scss:output-css/style.css",
+    "start": "sass sass/style.scss:output-css/style.css && http-server ."
   },
   "repository": {
     "type": "git",

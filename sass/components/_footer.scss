@@ -1,0 +1,9 @@
+.footer {
+  display: flex;
+  font-size: 28px;
+  background-color: $dark-blue;
+  font: var(--font-light);
+  color: white;
+  justify-content: center;
+  padding: 30px;
+}

@@ -1,0 +1,42 @@
+.navBar{
+  display: flexbox;
+  align-items: flex-start;
+}
+
+.topLinks{
+  font-size: 14px;
+  color: white;
+  text-align: right;
+  width: calc(100% - 65px);
+  margin: 14px 0 0;
+  padding: 0;
+  float: right;
+  flex-direction: row;
+
+  @media (min-width:$phone) {
+    font-size: 12px;
+    flex-direction: row;
+    display: grid;
+    grid-auto-flow: column;
+    white-space:nowrap;
+    padding-right: 5px;
+  }
+
+  li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+  }
+}
+
+
+.headerLogo{
+  display: block;
+  height: auto;
+  width: 50px;
+  float: left;
+
+  @media (min-width:$phone) {
+    width: 40px;
+  }
+}

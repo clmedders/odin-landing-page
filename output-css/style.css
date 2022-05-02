@@ -18,11 +18,14 @@ header, footer, div, section {
 }
 
 .header {
-  display: block;
+  display: flex;
   background-color: var(--dark-blue);
   font: var(--font-light);
-  height: 60px;
+  height: 100%;
+  width: 100%;
   padding: 5px 50px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 @media (max-width: 1200px) {
   .header {
@@ -30,9 +33,10 @@ header, footer, div, section {
     padding-left: 90px;
   }
 }
-@media (max-width: 480px) {
+@media (min-width: 480px) {
   .header {
-    font-size: 22px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }
 
@@ -42,15 +46,25 @@ header, footer, div, section {
 }
 
 .topLinks {
-  font-size: 20px;
+  font-size: 14px;
   color: white;
   text-align: right;
   width: calc(100% - 65px);
   margin: 14px 0 0;
   padding: 0;
   float: right;
+  flex-direction: row;
 }
-
+@media (min-width: 480px) {
+  .topLinks {
+    font-size: 12px;
+    flex-direction: row;
+    display: grid;
+    grid-auto-flow: column;
+    white-space: nowrap;
+    padding-right: 5px;
+  }
+}
 .topLinks li {
   display: inline-block;
   list-style: none;
@@ -62,6 +76,11 @@ header, footer, div, section {
   height: auto;
   width: 50px;
   float: left;
+}
+@media (min-width: 480px) {
+  .headerLogo {
+    width: 40px;
+  }
 }
 
 .hero {
@@ -93,6 +112,11 @@ header, footer, div, section {
   white-space: nowrap;
   width: fit-content;
 }
+@media (min-width: 480px) {
+  .hero button {
+    margin-left: 150px;
+  }
+}
 
 .heroText {
   display: flex;
@@ -104,9 +128,12 @@ header, footer, div, section {
   float: left;
   width: 50%;
 }
-@media (max-width: 1200px) {
+@media (min-width: 480px) {
   .heroText {
     padding: 90px;
+    padding-top: 0px;
+    font-size: 12px;
+    justify-content: center;
   }
 }
 
@@ -114,7 +141,17 @@ header, footer, div, section {
   font-style: var(--font-light);
   font-size: 48px;
   font-weight: bold;
-  margin-bottom: 15px;
+}
+@media (min-width: 480px) {
+  .heroText h1 {
+    font-size: 30px;
+    flex-direction: column;
+    white-space: nowrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+  }
 }
 
 .heroText p {
@@ -122,24 +159,22 @@ header, footer, div, section {
   font-size: 18px;
   margin-top: 0px;
 }
-
-.heroPic {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  float: right;
-  position: relative;
-  top: 20%;
-}
-@media (max-width: 1200px) {
-  .heroPic {
-    padding-right: 90px;
+@media (min-width: 480px) {
+  .heroText p {
+    font-size: 18px;
+    white-space: break-word;
+    width: 450px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 }
-@media (max-width: 1024px) {
+
+@media (min-width: 480px) {
   .heroPic {
-    position: relative;
-    top: -340px;
+    width: 40px;
+    height: auto;
   }
 }
 
@@ -156,7 +191,6 @@ header, footer, div, section {
   font-style: italic;
   max-width: 892px;
 }
-
 .speaker {
   font-size: 28px;
   font-weight: bold;
@@ -175,14 +209,14 @@ header, footer, div, section {
   border-radius: 5px;
   flex-direction: row;
 }
-@media (min-width: 1200px) {
-  .sign-up-box {
-    margin: 50px 250px;
-  }
-}
 .sign-up-box .sign-up__inner {
   display: flex;
   flex: row nowrap;
+}
+@media (min-width: 480px) {
+  .sign-up-box .sign-up__inner {
+    flex: column nowrap;
+  }
 }
 .sign-up-box button {
   display: block;
@@ -230,14 +264,13 @@ header, footer, div, section {
     font-size: 22px;
   }
 }
-
 p {
   font-size: 18px;
   margin-top: 0px;
 }
-@media (max-width: 1024px) {
+@media (min-width: 480px) {
   p {
-    font-size: 16px;
+    word-wrap: inherit;
   }
 }
 
@@ -251,4 +284,4 @@ p {
   padding: 30px;
 }
 
-/*# sourceMappingURL=hotdog.css.map */
+/*# sourceMappingURL=style.css.map */
