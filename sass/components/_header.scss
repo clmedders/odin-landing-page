@@ -8,18 +8,13 @@
   padding-right: 50px;
   padding-left: 50px;
 
-  @media (max-width:$desktop) {
-    padding-right: 90px;
-    padding-left: 90px;
-  }
-
-  @media (min-width: $laptop) {
-
-  }
-
-  @media (min-width: $tablet) {
-    
-  }
+  // @media (min-width:$laptop) {
+  //   display: block;
+  //   background-color: var(--dark-blue);
+  //   font: var(--font-light);
+  //   height: 60px;
+  //   padding: 5px 50px;
+  // }
 
   @media (min-width:$phone) {
     padding-right: 30px;

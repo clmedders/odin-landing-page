@@ -40,12 +40,6 @@ header, footer, div, section {
   padding-right: 50px;
   padding-left: 50px;
 }
-@media (max-width: 1200px) {
-  .header {
-    padding-right: 90px;
-    padding-left: 90px;
-  }
-}
 @media (min-width: 480px) {
   .header {
     padding-right: 30px;
@@ -101,9 +95,17 @@ header, footer, div, section {
     width: 40px;
   }
 }
-@media (min-width: 480px) and (min-width: 768px) {
+@media (min-width: 768px) {
   .headerLogo {
     width: 60px;
+  }
+}
+@media (min-width: 1366px) {
+  .headerLogo {
+    display: block;
+    height: auto;
+    width: 50px;
+    float: left;
   }
 }
 
@@ -115,7 +117,7 @@ header, footer, div, section {
   margin-right: auto;
   justify-content: space-around;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1366px) {
   .hero {
     height: 500px;
   }
@@ -163,7 +165,8 @@ header, footer, div, section {
 }
 @media (min-width: 768px) {
   .heroText {
-    padding-top: 60px;
+    padding-top: 10px;
+    font-size: 30px;
   }
 }
 
@@ -211,10 +214,8 @@ header, footer, div, section {
 }
 @media (min-width: 480px) {
   .heroPic {
-    width: 350px;
-    padding-left: 70px;
-    padding-bottom: 0px;
-    padding-top: 0px;
+    width: 200px;
+    height: auto;
   }
 }
 
@@ -285,6 +286,13 @@ header, footer, div, section {
   font-style: italic;
   max-width: 892px;
 }
+@media (min-width: 768px) {
+  .quote {
+    width: 450px;
+    padding-left: 50px;
+  }
+}
+
 .speaker {
   font-size: 28px;
   font-weight: bold;
@@ -292,6 +300,11 @@ header, footer, div, section {
   text-align: right;
   padding-right: 150px;
   padding-top: 30px;
+}
+@media (min-width: 768px) {
+  .speaker {
+    padding-right: 75px;
+  }
 }
 
 .sign-up-box {
@@ -309,12 +322,26 @@ header, footer, div, section {
 }
 @media (min-width: 480px) {
   .sign-up-box .sign-up__inner {
-    inline-size: min-content;
-    word-break: break-all;
-    width: auto;
+    flex-direction: column;
   }
 }
-.sign-up-box button {
+
+.action-text {
+  color: white;
+  font-size: 32px;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 0px;
+}
+@media (min-width: 768px) {
+  p {
+    width: 450px;
+  }
+}
+
+.action-text-button {
   display: block;
   width: 110px;
   border-color: white;
@@ -333,31 +360,16 @@ header, footer, div, section {
   top: 20%;
 }
 @media (min-width: 480px) {
-  .sign-up-box button {
-    padding-left: 2px;
+  .action-text-button {
+    margin-left: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .action-text-button {
+    margin-left: 400px;
   }
 }
 
-.action-text {
-  float: left;
-  padding-right: 450px;
-  color: white;
-  font-size: 32px;
-}
-@media (max-width: 1200px) {
-  .action-text {
-    white-space: nowrap;
-  }
-}
-@media (max-width: 1024px) {
-  .action-text {
-    font-size: 22px;
-  }
-}
-p {
-  font-size: 18px;
-  margin-top: 0px;
-}
 .footer {
   display: flex;
   font-size: 28px;
@@ -366,6 +378,16 @@ p {
   color: white;
   justify-content: center;
   padding: 30px;
+}
+@media (min-width: 480px) {
+  .footer {
+    padding-left: 100px;
+  }
+}
+@media (min-width: 768px) {
+  .footer {
+    padding-left: 250px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

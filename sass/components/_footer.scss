@@ -6,4 +6,12 @@
   color: white;
   justify-content: center;
   padding: 30px;
+
+  @media (min-width:$phone) {
+    padding-left: 100px;
+  }
+
+  @media (min-width:$tablet) {
+    padding-left: 250px;
+  }
 }
