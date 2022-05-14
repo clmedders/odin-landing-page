@@ -1,64 +1,64 @@
-.sign-up-box{
-  background-color: #3882f6;
-  color: white;
-  margin: 50px;
-  padding: 40px 80px;
-  display: flex;
-  border-radius: 5px;
-  flex-direction: row;
+// .sign-up-box{
+//   background-color: #3882f6;
+//   color: white;
+//   margin: 50px;
+//   padding: 40px 80px;
+//   display: flex;
+//   border-radius: 5px;
+//   flex-direction: row;
 
 
-  .sign-up__inner {
-    display: flex;
-    flex: row nowrap;
+//   .sign-up__inner {
+//     display: flex;
+//     flex: row nowrap;
 
-    @media (min-width:$phone) {
-      flex-direction: column;
-    }
-  }
+//     @media (min-width:$phone) {
+//       flex-direction: column;
+//     }
+//   }
 
   
-}
+// }
 
-.action-text{
-  color: white;
-  font-size: 32px;
-  }
+// .action-text{
+//   color: white;
+//   font-size: 32px;
+//   }
 
-   p{
-  font-size: 18px;
-  margin-top: 0px;
+//    p{
+//   font-size: 18px;
+//   margin-top: 0px;
   
 
-  @media (min-width:$tablet) {
-    width: 450px;
-  }
+//   @media (min-width:$tablet) {
+//     width: 450px;
+//   }
   
-}
+// }
 
-.action-text-button{
-  display: block;
-  width: 110px;
-  border-color: white;
-  border-style: solid;
-  border-width: 3px;
-  background: #3882f6;
-  padding: 10px;
-  border-radius: 8px;
-  color: white;
-  font-family: 'Roboto', arial;
-  font-weight: bold;
-  margin-left: 50%;
-  white-space: nowrap;
-  width: fit-content;
-  position: relative;
-  top: 20%;
+// .action-text-button{
+//   display: block;
+//   width: 110px;
+//   border-color: white;
+//   border-style: solid;
+//   border-width: 3px;
+//   background: #3882f6;
+//   padding: 10px;
+//   border-radius: 8px;
+//   color: white;
+//   font-family: 'Roboto', arial;
+//   font-weight: bold;
+//   margin-left: 50%;
+//   white-space: nowrap;
+//   width: fit-content;
+//   position: relative;
+//   top: 20%;
 
-  @media (min-width:$phone){
-    margin-left: 30px;
-  }
+//   @media (min-width:$phone){
+//     margin-left: 30px;
+//   }
 
-  @media (min-width:$tablet) {
-    margin-left: 400px;
-  }
-}  
+//   @media (min-width:$tablet) {
+//     margin-left: 400px;
+//   }
+// }  
