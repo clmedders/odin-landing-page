@@ -1,22 +1,5 @@
 .container{
-  max-width: 1200px;
   margin: 0 auto;
-
-
-
-  @media (min-width:$phone){
-    // max-width: 480px;
-    // float: left;
-    // margin: 0;
-    // width: 100%;
-    display: flex;
-    // overflow-x:hidden
-    // overflow: hidden;
-  //   width: 480px;
-  //   margin: 0 auto;
-  }
-
-  @media (min-width:$tablet){
-    // max-width: 768;
-  }
+  max-width: 1200px;
 }
+

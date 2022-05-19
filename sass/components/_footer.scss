@@ -1,18 +1,17 @@
-// .footer {
-//   display: flex;
-//   font-size: 28px;
-//   background-color: $dark-blue;
-//   font: var(--font-light);
-//   color: white;
-//   justify-content: center;
-//   padding: 30px;
+.footer {
+  background-color: $dark-blue;
+  color: white;
+  display: flex;
+  font: var(--font-light);
+  justify-content: center;
+  padding: 30px;
 
-//   @media (min-width:$phone) {
-//     padding-left: 100px;
-//   }
+  @media (min-width:$phone) {
+    font-size: 12px;
+  }
 
-//   @media (min-width:$tablet) {
-//     padding-left: 250px;
-//   }
-// }
+  @media (min-width:$tablet) {
+    font-size: 18px;
+    }
+}
 

@@ -1,39 +1,7 @@
-// .header {
-//   display: flex;
-//   background-color: var(--dark-blue);
-//   font: var(--font-light);
-//   height: 100%;
-//   width: 100%;
-//   padding: 5px 50px;
-//   padding-right: 50px;
-//   padding-left: 50px;
-
-//   // @media (min-width:$laptop) {
-//   //   display: block;
-//   //   background-color: var(--dark-blue);
-//   //   font: var(--font-light);
-//   //   height: 60px;
-//   //   padding: 5px 50px;
-//   // }
-
-//   @media (min-width:$phone) {
-//     padding-right: 30px;
-//     padding-left: 30px;
-//   }
-// }
-
-
 .header {
-  display: flex;
   background-color: var(--dark-blue);
+  display: flex;
   font: var(--font-light);
-  // position: relative;
-
-  // height: 100%;
-  // width: 100%;
-  // padding: 5px 50px;
-  // padding-right: 50px;
-  // padding-left: 50px;
 
   @media (min-width:$phone) {
     flex-direction: row;
