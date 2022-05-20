@@ -5,6 +5,9 @@
   display: flex;
   border-radius: 5px;
 
+  @media (min-width:$laptop){
+    margin: 80px 300px 80px 300px;
+  }
 
   .sign-up__inner {
 
@@ -14,7 +17,7 @@
     
     @media (min-width:$tablet) {
       margin: 0 auto;
-
+      flex-direction: row;
     }
 
   }
@@ -24,16 +27,20 @@
 
 .action-text{
   color: white;
-  // font-size: 32px;
 
   @media (min-width:$phone){
     font-size: 28px;
+    text-align: center;
+  }
+
+  @media (min-width:$tablet){
+    font-size: 28px;
+    float: left;
   }
 
   }
 
    p{
-  // font-size: 18px;
   margin-top: 0px;
 
   @media (min-width:$phone) {
@@ -43,6 +50,10 @@
 
   @media (min-width:$tablet) {
     width: 350px;
+  }
+
+  @media (min-width:$laptop) {
+    width: 600px;
   }
   
 }
@@ -67,9 +78,14 @@
 
   @media (min-width:$phone){
     margin-left: 30px;
+    margin: 0 auto;
   }
 
   @media (min-width:$tablet) {
     margin-left: 400px;
+  }
+
+  @media (min-width:$laptop) {
+    margin-left: 800px;
   }
 }  

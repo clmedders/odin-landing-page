@@ -3,11 +3,10 @@
 
   @media (min-width:$phone){
     margin: 0 auto;
-
   }
 
   @media (min-width:$tablet){
-    height: 500px;
+    height: 550px;
     justify-content: center;
     display: flex;
     flex-direction: row;
@@ -18,7 +17,7 @@
 
   @media (min-width:$laptop){
     flex-direction: row;
-    height: 450px;
+    height: 400px;
   }
 
   button {
@@ -75,6 +74,7 @@
     float: left;
     align-items: flex-start;
     width: 520px;
+    padding-top: 50px;
   }
 
   h1{
@@ -142,6 +142,7 @@
 .pic{
   @media (min-width: $laptop){
   float: right;
+  padding-top: 50px;
   }
 }
 
