@@ -1,13 +1,10 @@
 .quoteBox {
-  display: flex;
   background-color: #E5E7EB;
+  display: flex;
   flex-direction: column;
   
   @media (min-width:$phone){
-    padding-top: 0px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
+    padding: 0px 50px 50px 50px 
   }
 
   @media (min-width:$laptop){
@@ -34,20 +31,20 @@
 }
 
 .speaker{
-  font-weight: bold;
   font-family: #1F2937;
+  font-weight: bold;
 
   @media (min-width:$phone){
-    padding-top: 0px;
-    padding-left: 150px;
     font-size: 22px;
+    padding-left: 150px;
+    padding-top: 0px;
    }
 
    @media (min-width:$tablet){
-    padding-left: 0px;
-    padding-right: 50px;
     float: right;
     font-size: 26px;
+    padding-left: 0px;
+    padding-right: 50px;
    }
 
    @media (min-width: $laptop){

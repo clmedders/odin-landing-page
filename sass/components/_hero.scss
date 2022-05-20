@@ -6,13 +6,12 @@
   }
 
   @media (min-width:$tablet){
-    height: 550px;
-    justify-content: center;
     display: flex;
     flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
+    height: 550px;
+    justify-content: center;
     justify-content: space-around;
+    margin: auto;
   }
 
   @media (min-width:$laptop){
@@ -21,19 +20,12 @@
   }
 
   button {
-    display: block;
-    text-align: center;
-    width: 110px;
-    border: none;
     background: #3882f6;
-    padding: 10px;
     border-radius: 8px;
+    border: none;
     color: #fff;
-    font-family: 'Roboto', arial;
-    text-decoration: none;
     font-weight: bold;
-    white-space: nowrap;
-    width: fit-content;
+    padding: 10px;
   
     @media (min-width:$phone){
       margin: 0 auto;
@@ -49,45 +41,42 @@
   }
 }
 
-
-
 .heroText {
+  color: white;
   display: flex;
   flex-direction: column;
-  color: white;
 
   @media (min-width:$phone) {
-    padding: 0px;
-    font-size: 12px;
-    text-align: center;
     flex-direction: column;
+    font-size: 12px;
+    padding: 0px;
+    text-align: center;
   }
 
   @media (min-width:$tablet){
-    padding-top: 10px;
-    font-size: 30px;
     align-items: center;
+    font-size: 30px;
+    padding-top: 10px;
     width: 600px;
   }
 
   @media (min-width:$laptop){
-    float: left;
     align-items: flex-start;
-    width: 520px;
+    float: left;
     padding-top: 50px;
+    width: 520px;
   }
 
   h1{
     font-style: var(--font-light);
   
     @media (min-width:$phone) {
-      font-size: 30px;
-      flex-direction: column;
-      white-space: nowrap;
-      text-align: center;
       align-items: center;
+      flex-direction: column;
+      font-size: 30px;
       justify-content: center;
-      // width: 450px;
+      text-align: center;
+      white-space: nowrap;
     }
     
     @media (min-width:$laptop){
@@ -98,7 +87,6 @@
 
   p{
     font-style: #E5E7EB;
-    // font-size: 18px;
     margin-top: 0px;
   
     @media (min-width:$phone) {
@@ -115,34 +103,35 @@
 .heroPic {
   display: block;
 
-
   @media (min-width:$phone){
-    width: 350px;
     height: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
     margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 350px;
   }
 
   @media (min-width:$tablet){
-    width: 475px;
     height: auto;
     margin: 0 auto;
-    padding-top: 20px;
     padding-bottom: 40px;
+    padding-top: 20px;
+    width: 475px;
   }
 
   @media (min-width:$laptop){
     float: right;
-    position: relative;
     padding-left: 200px;
+    position: relative;
   }
 }
 
 .pic{
+
   @media (min-width: $laptop){
-  float: right;
-  padding-top: 50px;
+    float: right;
+    padding-top: 50px;
   }
+
 }
 

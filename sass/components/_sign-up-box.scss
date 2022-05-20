@@ -1,12 +1,12 @@
 .sign-up-box{
   background-color: #3882f6;
-  margin: 50px;
-  padding: 40px 80px;
-  display: flex;
   border-radius: 5px;
+  display: flex;
+  margin: 0 auto;
+  padding: 40px 80px;
 
-  @media (min-width:$laptop){
-    margin: 80px 300px 80px 300px;
+  @media (min-width:$phone){
+    margin: 50px;
   }
 
   .sign-up__inner {
@@ -16,13 +16,10 @@
     }
     
     @media (min-width:$tablet) {
-      margin: 0 auto;
       flex-direction: row;
+      margin: 0 auto;
     }
-
   }
-
-  
 }
 
 .action-text{
@@ -34,8 +31,12 @@
   }
 
   @media (min-width:$tablet){
-    font-size: 28px;
     float: left;
+    font-size: 28px;
+  }
+
+  @media (min-width:$laptop){
+    text-align: left;
   }
 
   }
@@ -59,22 +60,15 @@
 }
 
 .action-text-button{
-  display: block;
-  width: 110px;
-  border-color: white;
+  border-radius: 8px;
   border-style: solid;
   border-width: 3px;
-  background: #3882f6;
-  padding: 10px;
-  border-radius: 8px;
   color: white;
+  display: block;
   font-family: 'Roboto', arial;
   font-weight: bold;
-  margin-left: 50%;
-  white-space: nowrap;
+  padding: 10px;
   width: fit-content;
-  position: relative;
-  top: 20%;
 
   @media (min-width:$phone){
     margin-left: 30px;
@@ -83,6 +77,7 @@
 
   @media (min-width:$tablet) {
     margin-left: 400px;
+    white-space: nowrap;
   }
 
   @media (min-width:$laptop) {

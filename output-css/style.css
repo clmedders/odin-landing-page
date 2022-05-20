@@ -4,9 +4,9 @@
 }
 
 html, body {
-  padding: 0;
   margin: 0;
   overflow-x: hidden;
+  padding: 0;
 }
 
 header, footer, div, section {
@@ -42,7 +42,6 @@ header, footer, div, section {
   .topLinks {
     font-size: 13px;
     padding-top: 15px;
-    padding-left: 0px;
   }
 }
 @media (min-width: 768px) {
@@ -67,7 +66,8 @@ header, footer, div, section {
 @media (min-width: 414px) {
   .topLinks li {
     margin: 0;
-    padding: 0.4em;
+    padding: 0.1em;
+    flex-direction: column;
   }
 }
 @media (min-width: 768px) {
@@ -97,9 +97,9 @@ header, footer, div, section {
     display: block;
     float: left;
     height: auto;
-    width: 50px;
-    padding-right: 150px;
     padding-left: 0px;
+    padding-right: 150px;
+    width: 50px;
   }
 }
 
@@ -113,13 +113,12 @@ header, footer, div, section {
 }
 @media (min-width: 768px) {
   .hero {
-    height: 550px;
-    justify-content: center;
     display: flex;
     flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
+    height: 550px;
+    justify-content: center;
     justify-content: space-around;
+    margin: auto;
   }
 }
 @media (min-width: 1366px) {
@@ -129,19 +128,12 @@ header, footer, div, section {
   }
 }
 .hero button {
-  display: block;
-  text-align: center;
-  width: 110px;
-  border: none;
   background: #3882f6;
-  padding: 10px;
   border-radius: 8px;
+  border: none;
   color: #fff;
-  font-family: "Roboto", arial;
-  text-decoration: none;
   font-weight: bold;
-  white-space: nowrap;
-  width: fit-content;
+  padding: 10px;
 }
 @media (min-width: 414px) {
   .hero button {
@@ -160,32 +152,32 @@ header, footer, div, section {
 }
 
 .heroText {
+  color: white;
   display: flex;
   flex-direction: column;
-  color: white;
 }
 @media (min-width: 414px) {
   .heroText {
-    padding: 0px;
-    font-size: 12px;
-    text-align: center;
     flex-direction: column;
+    font-size: 12px;
+    padding: 0px;
+    text-align: center;
   }
 }
 @media (min-width: 768px) {
   .heroText {
-    padding-top: 10px;
-    font-size: 30px;
     align-items: center;
+    font-size: 30px;
+    padding-top: 10px;
     width: 600px;
   }
 }
 @media (min-width: 1366px) {
   .heroText {
-    float: left;
     align-items: flex-start;
-    width: 520px;
+    float: left;
     padding-top: 50px;
+    width: 520px;
   }
 }
 .heroText h1 {
@@ -193,12 +185,12 @@ header, footer, div, section {
 }
 @media (min-width: 414px) {
   .heroText h1 {
-    font-size: 30px;
-    flex-direction: column;
-    white-space: nowrap;
-    text-align: center;
     align-items: center;
+    flex-direction: column;
+    font-size: 30px;
     justify-content: center;
+    text-align: center;
+    white-space: nowrap;
   }
 }
 @media (min-width: 1366px) {
@@ -228,27 +220,27 @@ header, footer, div, section {
 }
 @media (min-width: 414px) {
   .heroPic {
-    width: 350px;
     height: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
     margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 350px;
   }
 }
 @media (min-width: 768px) {
   .heroPic {
-    width: 475px;
     height: auto;
     margin: 0 auto;
-    padding-top: 20px;
     padding-bottom: 40px;
+    padding-top: 20px;
+    width: 475px;
   }
 }
 @media (min-width: 1366px) {
   .heroPic {
     float: right;
-    position: relative;
     padding-left: 200px;
+    position: relative;
   }
 }
 
@@ -281,9 +273,9 @@ header, footer, div, section {
 }
 
 .h2 {
-  text-align: center;
-  font: bold;
   color: var(--dark-blue);
+  font: bold;
+  text-align: center;
 }
 @media (min-width: 414px) {
   .h2 {
@@ -333,16 +325,13 @@ header, footer, div, section {
 }
 
 .quoteBox {
-  display: flex;
   background-color: #E5E7EB;
+  display: flex;
   flex-direction: column;
 }
 @media (min-width: 414px) {
   .quoteBox {
-    padding-top: 0px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
+    padding: 0px 50px 50px 50px;
   }
 }
 @media (min-width: 1366px) {
@@ -373,22 +362,22 @@ header, footer, div, section {
 }
 
 .speaker {
-  font-weight: bold;
   font-family: #1F2937;
+  font-weight: bold;
 }
 @media (min-width: 414px) {
   .speaker {
-    padding-top: 0px;
-    padding-left: 150px;
     font-size: 22px;
+    padding-left: 150px;
+    padding-top: 0px;
   }
 }
 @media (min-width: 768px) {
   .speaker {
-    padding-left: 0px;
-    padding-right: 50px;
     float: right;
     font-size: 26px;
+    padding-left: 0px;
+    padding-right: 50px;
   }
 }
 @media (min-width: 1366px) {
@@ -399,14 +388,14 @@ header, footer, div, section {
 
 .sign-up-box {
   background-color: #3882f6;
-  margin: 50px;
-  padding: 40px 80px;
-  display: flex;
   border-radius: 5px;
+  display: flex;
+  margin: 0 auto;
+  padding: 40px 80px;
 }
-@media (min-width: 1366px) {
+@media (min-width: 414px) {
   .sign-up-box {
-    margin: 80px 300px 80px 300px;
+    margin: 50px;
   }
 }
 @media (min-width: 414px) {
@@ -416,8 +405,8 @@ header, footer, div, section {
 }
 @media (min-width: 768px) {
   .sign-up-box .sign-up__inner {
-    margin: 0 auto;
     flex-direction: row;
+    margin: 0 auto;
   }
 }
 
@@ -432,8 +421,13 @@ header, footer, div, section {
 }
 @media (min-width: 768px) {
   .action-text {
-    font-size: 28px;
     float: left;
+    font-size: 28px;
+  }
+}
+@media (min-width: 1366px) {
+  .action-text {
+    text-align: left;
   }
 }
 
@@ -458,22 +452,15 @@ p {
 }
 
 .action-text-button {
-  display: block;
-  width: 110px;
-  border-color: white;
+  border-radius: 8px;
   border-style: solid;
   border-width: 3px;
-  background: #3882f6;
-  padding: 10px;
-  border-radius: 8px;
   color: white;
+  display: block;
   font-family: "Roboto", arial;
   font-weight: bold;
-  margin-left: 50%;
-  white-space: nowrap;
+  padding: 10px;
   width: fit-content;
-  position: relative;
-  top: 20%;
 }
 @media (min-width: 414px) {
   .action-text-button {
@@ -484,6 +471,7 @@ p {
 @media (min-width: 768px) {
   .action-text-button {
     margin-left: 400px;
+    white-space: nowrap;
   }
 }
 @media (min-width: 1366px) {
@@ -508,6 +496,11 @@ p {
 @media (min-width: 768px) {
   .footer {
     font-size: 18px;
+  }
+}
+@media (min-width: 1366px) {
+  .footer {
+    font-size: 22px;
   }
 }
 
